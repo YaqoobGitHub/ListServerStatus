@@ -8,4 +8,4 @@
   register: pkg
 
 - debug:
-    msg: "{{pkg.stdout}}"
+    msg: "{{pkg.stdout_lines}}"
