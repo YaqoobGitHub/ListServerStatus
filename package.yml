@@ -1,0 +1,6 @@
+---
+- hosts: "{{ servername }}"
+  become: yes
+  name: Package installation 
+  roles:
+   - package_install
